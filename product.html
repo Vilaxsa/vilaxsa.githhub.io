@@ -11,42 +11,36 @@ rel="stylesheet">
 <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     </head>
         <body>
+            <!----navigation---->
+<nav class="navbar navbar-expand-lg navbar-light bg-light py-3 fixed-top"></nav>
+<div class="header">
 <div class="container">
     <div class="navbar">
         <div class="logo">
-            <img src="vlx.png" width="125px">
+           <a href="index.html"><img src="vlx.png" width="125px">
+           </a>
         </div>
         <nav>
         <ul id="MenuItems">
-            <li><a href=""></a>Home</a></li>
-            <li><a href=""></a>Product</a></li>
-            <li><a href=""></a>About</a></li>
-            <li><a href=""></a>Contact</a></li>
-            <li><a href=""></a>Account</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Product</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Account</a></li>
          </ul>
     </nav>
-    <img src="vlxss.png"width="80px" height="80px">
+    <a href="product.html"><img src="vlxss.png"width="80px" height="80px">
+    </a>
     <img src="images-1.png" class="menu-icon" 
     oneclick="menutoggel()">
     </div>
-</div>            
-</div>
+    
 <div class="small-container">
-    <div class="row row-2">
-        <h2>All Product</h2>
-        <select>
-            <option>Deafult Shorting</option>
-            <option>Short by Price</option>
-            <option>Short by Popularity</option>
-            <option>Short By Rating</option>
-            <option>Short by Sale</option>
-            <option>
-                        </select>
-    </div>
-
-    <div class="row">
+    <h2 class="title">Featured Products</h2>
+    <div class="row mx-auto container-fluid">
         <div class="col-4">
             <img src="images (4).jpg">
+            <div class="text-center"></div>
             <h4>Michale Jordan Sneakers</h4>
             <div class="rating">
                 <p class="rating">★★★★☆</p>
@@ -81,6 +75,9 @@ rel="stylesheet">
             <p> $145.65</p>
             <button class="buy-btn">Buy Now</button>
         </div>
+
+    </div>
+    <h2 class="title">Latest Products</h2>
         <div class="row">
             <div class="col-4">
                 <img src="images (7).jpg">
@@ -176,7 +173,7 @@ rel="stylesheet">
         <div class="col-4">
             <img src="download (27).jpg">
             <h4>RedMi Poco X4 GT</h4>
-              <div class="rating">
+            <div class="rating">
                 <p class="rating">★★★★☆</p>
             </div>
             <p> $6332.79</p>
@@ -190,8 +187,10 @@ rel="stylesheet">
             </div>
             <p> $740.23</p>
             <button class="buy-btn">Buy Now</button>
-         </div>
-      </div>
+
+        </div>
+    </div>
+</div>
 
         <div class="page-btn">
             <span>1</span>
